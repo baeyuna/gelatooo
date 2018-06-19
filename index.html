@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>gelatototo</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<meta property="og:image" content="./img/thumbnail.jpg">
+	<meta property="og:title" content="젤라토">
+	<meta property="og:description" content="쫀득쫀득 부드러운 아이스크림
+	단맛덕후의 달콤한 젤라토 이야기">
+	<style>
+	a {text-decoration: none;}
+	@font-face { font-family: 'NanumBarunpen'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+    
+	h1,h2,h3,h4,p {font-family: 'NanumBarunpen'; text-decoration: none; color:black;}
+
+	h1 {font-size: 2.8em; margin:0; padding-left: 0.1em;}
+	h2 {font-size: 1.7em; margin:auto; text-align:center;}
+	h3 {font-size: 1.2em; margin:auto; text-align: left; padding-left:0.5em; padding-top:0.2em; line-height: 37px;}
+	h4 {font-size: 1em; margin:auto; text-align: left; padding-left:0.5em; padding-top:0em; line-height: 35px; color:#4B4B4B;}
+	p{font-size: 1.3em; line-height: 1.9; margin:0; text-align: justify;}
+
+	header{width:1920px; background:#f1f0d7; margin:auto;}
+	section{width:1920px; background:#fcfcf4; margin:auto;}
+	footer {width:1920px; background:#f1f0d7; margin:auto;}
+	img{display: block;}
+
+	a:link, a:visited, a:active {text-decoration: none; color: white;}
+
+		nav{width: 1920px; margin :auto; height: 100px; background: #f1f0d7;}
+		nav #logo {width:200px; height:100px; margin: auto; background: #f1f0d7;}
+		nav #logo img{ width:100%;}
+		nav #logo img:hover {}
+
+	.titleboxS{width:360px; height: 106px;}
+	.titleboxL{width:1200px; height:106px; float:left;}
+	
+	.box2{width:1920px; height:1540px;}
+	.imagebox2 {height: 1280; overflow: hidden;}
+	.imagebox2 img{width:100%;}
+
+	.textbox3{width:1200px; height: 674px; margin:auto;}
+	.box3{width:360px; height:568px; float:left; margin-right: 60px;}
+	.box30{width:360px; height:568px; float:left;}
+
+	.box4{width:1920px; height:668px;}
+	.imagebox4 {height: 408px; overflow: hidden;}
+	.imagebox4 img{width:100%;}
+
+	.textbox5{width:1200px; height:637px; margin:auto;}
+	.box5{width:360px; height:531px; float:left; margin-right: 60px;}
+	.box50{width:360px; height:531px; float:left;}
+
+	.box6{width:1920px; height:1542px;}
+	.imagebox6 {height: 1282px; overflow: hidden;}
+	.imagebox6 img{width:100%;}
+
+	.textbox7{width:1200px; height:670px; margin:auto;}
+	.box7{width:720px; height:564px; float:left; margin-right: 60px;}
+	.box70{width:360px; height:564px; float:left;}
+
+	.textbox8{width:1200px; height:890px; margin:auto;}
+	.box8{width:360px; height:630px; float:left; margin-right: 60px;}
+	.box80{width:360px; height:630px; float:left;}
+	.emptybox8{height:130px;}
+	.imagebox8{width:280px; height:630px; margin-right:80px;}
+	.imagebox80{width:280px; height:630px; margin-left:80px;}
+
+	.textbox9{width:1200px; height:1295px; margin:auto;}
+	.emptybox90{width:360px; height:65px; }
+	.box9{width:360px; height:1295px; float: left; margin-right:60px;}
+	.box90{width:360px; height:1295px;  float: left;}
+	.imagebox9 {height: 560px; overflow: hidden;}
+	.imagebox9 img{width:100%;} 
+
+	.box10{width:1920px; height:1565px;}
+	.imagebox10 {height: 1305px; overflow: hidden;}
+	.imagebox10 img{width:100%;}
+
+	.textbox11{width:1200px; height:394px; margin:auto;}
+	.box11{width:720px; height:288px;  float:left; margin-right: 60px;}
+	.box110{width:360px; height:288px;  float:left;}
+
+	.textbox12{width:1200px; height:1094px; margin:auto;}
+	.box12{width:210px; height:278px; float:left; margin-right: 37.5px; }
+	.box120{width:210px; height:278px; float:left;}
+	.namebox{width:210px; height:25px; margin-top:7px;}
+
+	.imagebox12 {height: 210px; overflow: hidden;}
+	.imagebox12 img{width:100%; height:100%; object-fit: cover; transform: scale(1.0); transition: transform .5s;} 
+	.imagebox12 img:hover{transform:scale(1.3); transition: transform .5s;}
+
+
+	.textbox13{width:1200px; height:633px; margin:auto;}
+	.box13{width:360px; height:527px;  float:left; margin-right: 60px;}
+	.box130{width:360px; height:527px;  float:left;}
+
+	.box14{width:1920px; height:1540px;}
+	.imagebox14 {height: 1280px; overflow: hidden;}
+	.imagebox14 img{width:100%;}
+
+	.textbox15{width:1200px; height:1050px; margin:auto;}
+	.box15 {width:360px; height: 790px; float:left; margin-right: 60px;}
+	.box150 {width:720px; height:790px; float:left;}
+
+	.imagebox15{height:365px; overflow:hidden;}
+	.imagebox15 img{width:100%;}
+	.emptybox15{height:60px;}
+	.imagebox150{height:790px; overflow:hidden;}
+	.imagebox150 img{width:100%; height:100%; object-fit: cover; transform: scale(1.0); transition: transform .5s;}
+	.imagebox150 img:hover{transform:scale(1.2); transition: transform .5s;}
+	
+
+	.textbox16{width:1200px; height:754px; margin:auto;}
+	.box16{width:360px; height:648px;  float:left; margin-right: 60px;}
+	.box160{width:360px; height:648px;  float:left;}
+
+	.box17{width:1920px; height:520px;}
+	.imagebox17 {height: 260px; overflow: hidden;}
+	.imagebox17 img{width:100%;}
+
+	.box181{width:300px; height:1120px; float:left; margin-right: 105px;}
+	.box182{width:300px; height:1120px; float:left;}
+	.imagebox18 {height:1038px;}
+	.imagebox18 img{width:100%}
+
+	.textbox19{width:1200px; height:300px; margin:auto; }
+	.box19{width:200px; height:300px; float:left; margin-right:50px;}
+	.box190{width:200px; height:300px; float:right;}
+
+	.clear{clear:both;}
+	</style>
+
+</head>
+<body>
+	<header>
+		<nav>
+			<div id="logo">
+				<a href="index.html" target="_blank"> <img src='./img/logo2.png'> </a>
+			</div>
+		</nav>
+	</div>
+	</header>
+
+	<section>
+	<div class="box2"> 
+		<div class="imagebox2">
+			<img src='./img/4ice.jpg'>
+		</div>
+	</div>
+	</section>
+
+
+	<section>
+	 <div class="textbox3">
+
+	 <div class="titleboxL">
+	 	<h1>달콤한 아이스크림의 세계</h1>
+	 </div>
+
+	 <div class="clear"></div>
+
+	 <div class="box3">
+	 	<p>아이스크림은 우유나 유지방에 설탕·달걀·향료·젤라틴·색소 등을 넣고 휘저어서 얼린 빙과라고 정의한다. 1550년경 이탈리아에서 고안된 아이스크림은 얼음의 결정입자가 큰 셔벗과 같았다. 프랑스 루이 왕가의 요리사가 크림에 노른자와 감미료를 섞고 저은 뒤 냉동시켜, 현재 같은 얼음의 결정입자가 섬세하고 부드러운 크림아이스라 불렸던 제품을 처음으로 만들어냈다. </p>
+		</div>	
+
+	  <div class="box3">
+	 	<p>아이스크림은 크게 충분히 동결시킨 하드와 비교적 부드러운 소프트로 나뉘지만 포장용기, 가공법 등에 따라 종류가 다양하다. 기본적으로 바닐라 등의 향료를 사용한 단순한 것은 플레인, 노른자의 함유량이 많은 것은 커스터드 또는 프렌치 아이스크림이라 한다. 이 밖에도 과일·초콜릿·커피·양주 등을 첨가한 것을 풍미 아이스크림이라고 한다.</p>
+		</div>	
+
+	<div class="box30">
+	 	<p>재료에 따라 수십 가지의 맛이 있고 지방, 저지방, 지방 0%, 그리고 프렌치 스타일, 젤라또로도 구별되며 콘, 샌드위치, 바 등 그 형태도 다양하다. 아이스크림은 오늘날 명실 공히 가장 인기 있는 ‘디저트’의 반열에 올라 있다.</p>
+	</div>	
+
+	 <div class="clear"></div>
+	</div>
+	</section>
+
+
+	<section>
+	<div class="box4"> 
+		<div class="imagebox4">
+			<img src='./img/biggelato.jpg'>
+		</div>
+	</div>
+	</section>
+
+
+<section>
+	 <div class="textbox5">
+
+	 <div class="titleboxL">
+	 	<h1>진하고 부드러운 아이스크림, 젤라토</h1>
+	 </div>
+
+	 <div class="clear"></div>
+
+	 <div class="box5">
+	 	<p>우유와 크림, 설탕을 베이스로 하고 과일, 초콜릿, 커피, 견과류 등의 다양한 천연 재료로 향을 낸 이탈리아 아이스크림이다. 젤라토는 이탈리아어로 ‘얼렸다’ 라는 의미를 가지고 있다.일반적인 아이스크림보다 젤라토는 노른자와 크림의 양이 적게 들어가고 지방 함량은 4~8% 정도로 유지방은 적지만 당분은 훨씬 높다.</p>
+		</div>	
+
+	  <div class="box5">
+	 	<p>지방의 함량이 낮기 때문에 아이스크림이 가진 크리미한 느낌이 덜하다. 하지만 유지방 함량이 적은 만큼 냉동했을 때 덜 딱딱해지고 입에서도 부드럽게 녹는 점이 특징적이다. 또한 일반 아이스크림이 부피와 무게를 늘리기 위하여 공기와 물을 넣어 제조하는 것과 달리 젤라토는 이 과정을 생략한다. </p>
+		</div>	
+
+	<div class="box50">
+	 	<p>젤라토는 아이스크림보다 재료를 천천히 저어가며 섞기 때문에 공기 함량이 낮다. 그래서 밀도가 치밀해져 질감이 쫀득하고 맛과 향이 진하고 부드럽다. 무엇보다 젤라토는 보존제 등 화학 재료를 일절 사용하지 않고 천연 재료만을 사용해 매일 만들어 팔기 때문에 신선하다.</p>
+	</div>	
+
+	 <div class="clear"></div>
+	</div>
+	</section>
+
+
+
+	<section>
+	<div class="box6"> 
+		<div class="imagebox6">
+			<img src='./img/5ice.jpg'>
+		</div>
+	</div>
+	</section>
+
+
+
+	<section>
+	 <div class="textbox7">
+
+	 <div class="titleboxL">
+	 	<h1>간단하게 알아보는 젤라토의 역사</h1>
+	 </div>
+
+	 <div class="clear"></div>
+
+	 <div class="box7">
+	 	<p>젤라토는 메소포타미아지역의 노예들이 산에서 눈, 얼음을 채취해 왕실 연회나 종교행사에 사용될 음료를 만들었던 것을 시초로 본다. 이후 아랍인들이 셔벗을 만드는데 필요한 설탕 시럽을 개발했다. 이탈리아 시칠리아에 이것이 전해지면서 이탈리아인들 사이에 아이스크림을 먹는 식문화가 생겼다. 16세기 피렌체에서 활동했던 건축가, 베르나르도는 새로운 젤라토 레시피를 선보였다. 우유, 크림, 달걀, 과일을 사용해 만든 새로운 젤라토는 좋은 반응을 얻었고 유럽 전체로 퍼져나갔다. 하지만 당시에는 얼음, 소금이 귀해 상류층에서만 접할 수 있었다. 17세기 이후 시칠리아인들이 파리에 카페를 열고 대중들에게 젤라토를 선보였다. 이탈리아에서 젤라토 기계가 개발되면서 쉽게 대량생산이 가능해졌고 이는 젤라토의 대중화를 이끌었다.</p>
+		</div>	
+
+	<div class="box70">
+	</div>	
+
+	 <div class="clear"></div>
+	</div>
+	</section>
+
+
+
+	<section>
+	<div class="textbox8"> 
+	
+	<div class="box8">
+		<div class="imagebox8">
+			<img src='./img/ice.png'>
+	</div>
+	</div>
+
+	<div class="box8">
+		<div class="emptybox8">
+		</div>
+		<div class="titleboxS">
+		<h1>다양한 젤라토의 종류</h1>
+		</div>
+		<p>젤라토는 우유, 달걀, 설탕에 더해지는 천연 향미 재료에 따라 다양하게 변형이 가능하다. 보통 사용되는 천연 향미 재료로는 과일, 바닐라, 커피, 견과류, 초콜릿 등이 있다. 또 만드는 방법에 따라 젤라테리에서 수작업으로 만든 젤라토는 ‘젤라토 아르티지아날레’, 기계로 대량 생산한 젤라토는  ‘젤라토 콘페치오나토’라 구분해 부른다. </p>
+	</div>
+
+	<div class="box80">
+		<div class="imagebox80">
+			<img src='./img/ice2.png'>
+	</div>
+	</div>
+	</section>
+
+
+
+	<section>
+		<div class="textbox9">
+
+	<div class="box9"> 
+		<div class="imagebox9">
+			<img src='./img/9-1.jpg'>
+	</div>
+	<div class="emptybox90">
+	</div>
+	<div class="titleboxS">
+		<h1>소르베</h1>
+	</div>
+	<p>소르베는 유제품을 전혀 더하지 않고 물, 설탕이나 과일즙 등으로만 만든 베이스에 공기를 불어 넣으면서 저어 부드럽고 곱게 얼린다. 정찬 코스에서 입맛을 새롭게 하기 위해 요리의 중간에 나오는데, 오늘날은 식후의 입가심으로도 쓰인다. 식사 중의 소르베는 술을 얼린 것이 많고 덜 달다. 디저트에는 과즙을 많이 써서 단맛을 내고 비스킷류를 곁들인다. 
+	</p>
+	</div>
+
+	<div class="box9"> 
+		<div class="imagebox9">
+			<img src='./img/9-2.jpg'>
+	</div>
+	<div class="emptybox90">
+	</div>
+	<div class="titleboxS">
+		<h1>그라니타</h1>
+	</div>
+	<p>그라니타는 시칠리아섬에서 전래된 반건조 디저트의 일종으로 라임, 레몬, 자몽 등의 과일에 설탕과 와인 또는 샴페인을 넣어 얼린 이탈리아식 아이스크림이다. 얼리는 과정의 과립형의 질감을 가지게 하기 위해서 포크로 잘게 부숴 저어준다. 그라니타는 재료로 쓰는 과일의 당도가 낮아 얼음 결정체가 많이 생기고 신맛과 톡 쏘는 맛이 강하고 입자가 성기다. 
+	</p>
+	</div>
+
+	<div class="box90"> 
+		<div class="imagebox9">
+			<img src='./img/9-3.jpg'>
+	</div>
+	<div class="emptybox90">
+	</div>
+	<div class="titleboxS">
+		<h1>세미프레도</h1>
+	</div>
+	<p>세미프레도는 반만 얼려 액체와 고체의 중간 상태인 아이스크림이다. 일반 아이스크림이나 젤라토와 달리 공기를 불어넣지 않고 얼리는 대신, 머랭이나 크림을 더해 맛이 부드럽고 수분이 적은 탓에 얼음이 적어 덜 차갑다. 입에 넣으면 아이스크림보다 빨리 녹믐다. 다른 재료를 첨가하여 맛을 내기 쉽기 때문에 취향에 따라 과일, 땅콩버터, 꿀 등을 첨가하기도 한다.
+	</p>
+	</div>
+	<div class="clear"></div>
+	</div>
+	</section>
+
+
+	<section>
+	<div class="box10"> 
+		<div class="imagebox10">
+			<img src='./img/10ice.jpg'>
+		</div>
+	</div>
+	</section>
+
+	<section>
+	 <div class="textbox11">
+
+	 <div class="titleboxL">
+	 	<h1>다채로운 맛을 가진 젤라토</h1>
+	 </div>
+
+	 <div class="clear"></div>
+
+	  <div class="box11">
+	  	<p>우유, 달걀, 설탕으로 만들어지는 젤라토는 여러가지 천연 향미 재료에 따라 다양하게 즐길 수 있다. 기본적인 천연 향미 재료로는 과일, 커피, 바닐라, 견과류, 초콜릿 등이 있다. 최근에는 버터, 소금, 검은깨, 바질, 미숫가루, 홍차, 녹차, 유자, 티라미슈, 순두부, 백향과, 호박, 쌀과 같이 다양한 메뉴가 새로운 시도를 통해 만들어지고 있다.</p>
+	  </div>	
+
+	  <div class="box110">
+	  </div>	
+
+	 <div class="clear"></div>
+	</div>
+	</section>
+
+
+	<section>
+	<div class="textbox12"> 
+
+	<div class="box12"> 
+		<div class="imagebox12"> 
+			<img src='./img/1.jpg'>
+		</div>
+		<div class="namebox">
+		<h2>Vanilla</h2>
+	</div>
+	</div>
+
+	<div class="box12"> 
+		<div class="imagebox12"> 
+			<img src='./img/2.jpg'>
+		</div>
+		<div class="namebox">
+		<h2>Chocolate</h2>
+	</div>
+	</div>
+
+	<div class="box12"> 
+		<div class="imagebox12"> 
+			<img src='./img/3.jpg'>
+		</div>
+		<div class="namebox">
+		<h2>Coconut</h2>
+	</div>
+	</div>
+
+	<div class="box12"> 
+		<div class="imagebox12"> 
+			<img src='./img/4.jpg'>
+		</div>
+		<div class="namebox">
+		<h2>Coffee</h2>
+	</div>
+	</div>
+
+	<div class="box120"> 
+		<div class="imagebox12"> 
+			<img src='./img/5.jpg'>
+		</div>
+		<div class="namebox">
+		<h2>Pistachio</h2>
+	</div>
+	</div>
+
+	<div class="clear"></div>
+
+	<div class="box12"> 
+		<div class="imagebox12"> 
+			<img src='./img/6.jpg'>
+		</div>
+		<div class="namebox">
+		<h2>Peanut Butter</h2>
+	</div>
+	</div>
+
+	<div class="box12"> 
+		<div class="imagebox12"> 
+			<img src='./img/7.jpg'>
+		</div>
+		<div class="namebox">
+		<h2>Nutella</h2>
+	</div>
+	</div>
+
+	<div class="box12"> 
+		<div class="imagebox12"> 
+			<img src='./img/8.jpg'>
+		</div>
+		<div class="namebox">
+		<h2>Oreo</h2>
+	</div>
+	</div>
+
+	<div class="box12"> 
+		<div class="imagebox12"> 
+			<img src='./img/9.jpg'>
+		</div>
+		<div class="namebox">
+		<h2>Chocolate Chip</h2>
+	</div>
+	</div>
+
+	<div class="box120"> 
+		<div class="imagebox12"> 
+			<img src='./img/10.jpg'>
+		</div>
+		<div class="namebox">
+		<h2>Mint Chocolate</h2>
+	</div>
+	</div>
+
+	<div class="clear"></div>
+
+	<div class="box12"> 
+		<div class="imagebox12"> 
+			<img src='./img/11.jpg'>
+		</div>
+		<div class="namebox">
+		<h2>Milk Cream</h2>
+	</div>
+	</div>
+
+	<div class="box12"> 
+		<div class="imagebox12"> 
+			<img src='./img/12.jpg'>
+		</div>
+		<div class="namebox">
+		<h2>Hazelnut</h2>
+	</div>
+	</div>
+
+	<div class="box12"> 
+		<div class="imagebox12"> 
+			<img src='./img/13.jpg'>
+		</div>
+		<div class="namebox">
+		<h2>Cream Caramel</h2>
+	</div>
+	</div>
+
+	<div class="box12"> 
+		<div class="imagebox12"> 
+			<img src='./img/14.jpg'>
+		</div>
+		<div class="namebox">
+		<h2>Strawberry</h2>
+	</div>
+	</div>
+
+	<div class="box120"> 
+		<div class="imagebox12"> 
+			<img src='./img/15.jpg'>
+		</div>
+		<div class="namebox">
+		<h2>Stracciatella</h2>
+	</div>
+	</div>
+
+	<div class="clear"></div>
+
+
+	</section>
+
+
+
+	<section>
+	 <div class="textbox13">
+
+	 <div class="titleboxL">
+	 	<h1>쉽게 만들고 맛있게 먹어보자</h1>
+	 </div>
+
+	 <div class="clear"></div>
+
+	 <div class="box13">
+	 	<p>우유에 거품이 생길 때까지 데운 후 식힌다. 노른자와 설탕을 그릇에 담고 거품기로 농도가 진해질 때까지 저은 후 데운 우유를 천천히 붓는다. 따뜻한 물이 들어있는 팬에 재료가 담긴 그릇을 넣고 나무스푼으로 젓는다. 내용물이 나무스푼 뒷면에 묻어나면 그릇을 꺼내 식힌다. 완전히 식으면 농도가 충분히 진해질 때까지 젓고 얼린다.</p>
+		</div>	
+
+	  <div class="box13">
+	  	<p>이렇게 만들어진 기본 젤라토에 과일, 견과류, 초콜릿, 커피 등 취향에 따라 다양한 천연 향미 재료를 더할 수 있다. 젤라토는 주로 간식이나 디저트로 먹는다. 일반적인 아이스크림에 비해 젤라토는 지방 성분이 적기 때문에 더욱 단단하게 어는 경향이 있으므로 먹기 15분 전쯤 냉동고에서 꺼내 놓는 것이 좋다.</p>
+	  </div>	
+
+	  <div class="box130">
+	  </div>	
+
+	 <div class="clear"></div>
+	</div>
+	</section>
+
+
+	<section>
+	<div class="box14"> 
+		<div class="imagebox14">
+			<img src='./img/pinkice.jpg'>
+		</div>
+	</div>
+	</section>
+
+	<section>
+	<div class="textbox15">
+
+	 <div class="box15">
+	 <div class="imagebox15">
+	 	<img src='./img/dang1.jpg'>
+	 </div>
+
+	 <div class="clear"></div>
+
+	 <div class="emptybox15"></div>
+
+	 <div class="clear"></div>
+
+	 <div class="imagebox15">
+	 	<img src='./img/dang2.jpg'>
+	 </div>
+	 </div> 
+
+	 <div class="box150">
+	 <div class="imagebox150">
+	 	<a href="https://daeunshin.github.io/page1/" target="_blank"> <img src='./img/dang3.jpg'> </a>
+	 </div>
+	 </div>
+
+	</div>
+	</section>
+
+	<section>
+	 <div class="textbox16">
+
+	 <div class="titleboxL">
+	 	<a href="https://www.naver.com/" target="_blank"><h1>직접 먹어본 젤라토 맛집, 당도</h1></a>
+	 </div>
+
+	 <div class="clear"></div>
+
+	 <div class="box16">
+	 	<p>망원동에 위치한 '당도'는 유명 젤라토 전문점이다. 평범한 외관이지만 줄을 선 사람들을 보면 맛집이라는 것을 알 수 있다. 귀여운 컵에 맛보기용 젤라또를 얹어준 모습이 토끼같아 SNS에서 입소문을 타며 인기를 끌고 있다. 맛보기용과 본품 젤라또까지 한번에 최대 4가지 맛을 먹어볼 수 있다. 보기도 좋고 맛도 보장되어있다. 어린 시절부터 이탈리아를 자주 오간 대표가 유명 젤라테리아에서 일하며 배워 온 본토의 맛에 자신만의 철학을 더해 젤라토를 만든다. </p>
+		</div>	
+
+	  <div class="box16">
+	  	<p>당도는 정직하고 깔끔하게 좋은 재료를 선별해서 위생적인 환경에서 만드는 것을 원칙으로 한다. 또 당도의 젤라또는 먹고 나서 목이 마르지 않고 개운하다. 당도는 다른 곳에서 보지 못한 새로운 맛을 만들어내고 있다. 덕분에 매번 다른 맛을 제공하고 먹어볼 수 있다. 홍시, 레몬, 검은깨, 복숭아, 쌀, 코코넛, 헤이즐넛, 티라미슈, 밀크티, 바질우유, 버터, 단호박, 미숫가루 등 다양하게 있다. 오늘의 맛은 인스타그램에 공개되고 메뉴 소진 시 다른 맛으로 대체 된다. </p>
+	  </div>	
+
+	  <div class="box160">
+	  	<p>먹어본 맛 중에 녹차는 정말 녹차를 좋아하지 않는 사람도 정말 맛있게 먹을 수 있는 맛이었다. 코코넛과 과일 맛을 가진 젤라토들도 맛이 진하고 부드러웠다. 당도는 월요일은 쉬고 다른 요일에는 12시 30분부터 20시까지 영업한다. 친절한 사장님 부부와 신선하고 다양한 맛, 예쁜 토끼 젤라토를 맛보고 싶다고 꼭 한번 가보는 것을 추천한다.</p>
+	  </div>	
+
+	 <div class="clear"></div>
+	</div>
+	</section>
+
+
+
+	<section>
+	<div class="box17"> 
+		<div class="imagebox17">
+			<img src='./img/text.jpg'>
+		</div>
+	</div>
+	</section>
+
+
+
+	<section>
+	<div class="box181">  
+		<div class="imagebox18">
+			<img src='./img/18-1.png'>
+	</div>
+	</div>
+
+	<div class="box181">  
+		<div class="imagebox18">
+			<img src='./img/18-2.png'>
+	</div>
+	</div>
+
+	<div class="box181">  
+		<div class="imagebox18">
+			<img src='./img/18-3.png'>
+	</div>
+	</div>
+
+	<div class="box181">  
+		<div class="imagebox18">
+			<img src='./img/18-4.png'>
+	</div>
+	</div>
+
+	<div class="box182">  
+	<div class="imagebox18">
+			<img src='./img/18-5.png'>
+	</div>
+	</div>
+	 <div class="clear"></div>
+	</section>
+
+	<footer>
+	<div class="textbox19">
+
+
+		<div class="box19">
+			<a href="https://baeyuna.github.io/dessertx/index.html" target="_blank"><h3>DESSERT</h3></a>
+			<a href="https://baeyuna.github.io/macaron-mobile2/" target="_blank"><h4>MACARON WORLD</h4></a>
+			<a href="index.html" target="_blank"><h4>GELATO WORLD</h4></a>
+		</div>
+
+		<div class="box19">
+			<h3>해외 젤라토 맛집</h3>
+			<a href="https://www.grom.it/en/gelato.php" target="_blank"><h4>CREMA DI GROM</h4></a>
+			<a href="http://www.giolitti.it/" target="_blank"><h4>Giolitti</h4></a>
+			<a href="https://www.venchi.com/it/" target="_blank"><h4>VENCHI</h4></a>
+			<a href="http://www.gelateriafassi.com/" target="_blank"><h4>Fassi</h4></a>
+			<a href="http://www.lacarraiagroup.eu/" target="_blank"><h4>LA CARRARIA</h4></a>
+		</div>
+
+		<div class="box19">
+			<h3>국내 젤라토 맛집</h3>
+			<a href="https://www.instagram.com/zuccas_artisan_gelato/?hl=ko" target="_blank"><h4>주카스 젤라토</h4></a>
+			<a href="https://twitter.com/glt_gelato" target="_blank"><h4>glt젤라토</h4></a>
+			<a href="https://www.instagram.com/haltavoca/?hl=ko" target="_blank"><h4>할타보카</h4></a>
+			<a href="https://www.instagram.com/explore/locations/416023388/" target="_blank"><h4>안젤리노</h4></a>
+			<a href="https://www.instagram.com/explore/locations/258542317860815/?hl=ko" target="_blank"><h4>요고리노</h4></a>
+		</div>
+
+		<div class="box19">
+			<h3>참고자료</h3>
+			<a href="http://shop.bookpalcomics.com/" target="_blank"><h4>서울 디저트 페어</h4></a>
+			<a href="https://www.instagram.com/explore/tags/%EB%8B%B9%EB%8F%84%EC%A0%A4%EB%9D%BC%EB%98%90/" target="_blank"><h4>젤라토-당도</h4></a>
+			<a href="https://www.pinterest.co.kr/" target="_blank"><h4>핀터레스트</h4></a>
+			<a href="https://www.awwwards.com/" target="_blank"><h4>awwwards</h4></a>
+		</div>
+
+		<div class="box190">
+		<h3> 배유나 <h3>
+		<h4> 국립 한경대학교 디자인학과 <br> 디지털 컨텐츠 트랙 <br> youna9602@gmail.com <br> 010.6226.9602 </h4>
+		</div>	
+	</div>
+	</footer>
+
+
+</body>
+</html>
